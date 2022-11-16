@@ -1,5 +1,4 @@
 /* Стилизация кнопки */
-<<<<<<< HEAD
 .button {
     width: 182px;
     height: 48px;
@@ -43,5 +42,3 @@
 .button_alternate:hover {
     border: 1px solid var(--black);
 }
-=======
->>>>>>> master
