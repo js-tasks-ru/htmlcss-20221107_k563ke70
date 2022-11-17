@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 .button {
-    width: 182px;
+
     height: 48px;
     font-style: normal;
     font-weight: 500;
@@ -24,6 +24,7 @@
 .button_primary {
     background: var(--blue);
     color: var(--white);
+    padding: 15px 63px;
 }
 
 .button_primary:hover {
@@ -33,10 +34,15 @@
 .button_secondary {
     background: var(--purple);
     color: var(--white);
+    padding: 15px 53px;
 }
 
 .button_secondary:hover {
     background: #5028C6;
+}
+
+.button_alternate {
+    padding: 15px 58px;
 }
 
 .button_alternate:hover {
