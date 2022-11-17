@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: red;
+}
+
+nav {
+    background-color: orange;
+    padding: 10px;
+}
+
+nav a {
+    color: white
+}
+
+main {
+    background-color: green;
+    padding: 10px;
+}
+
+article {
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+article:last-child {
+    margin-bottom: 0;
+}
+
+article h2 {
+    padding: 20px;
+}
+
+article ul,ol {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+footer p {
+    text-align: center;
+    font-size: 2em;
+}
