@@ -1,0 +1,79 @@
+.gistogram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 24px 24px 24px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 354px;
+    min-height: 185px;
+}
+
+.gistogram__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gistogram__title {
+    margin-bottom: 6px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.gistogram__number {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+.gistogram__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #4263EB;
+}
+
+.graphik {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1px;
+    align-items: flex-end;
+}
+
+.gistogram__graphik {
+    height: 100px;
+}
+
+.graphik__item1 {
+    height: 25%;
+    width: 100%;
+}
+
+.graphik__item2 {
+    height: 50%;
+    width: 100%;
+}
+
+.graphik__item3 {
+    height: 100%;
+    width: 100%;
+}
+
+.graphik__item4 {
+    height: 75%;
+    width: 100%;
+}
+
+.graphik_color {
+    background: #4263EB;
+}
