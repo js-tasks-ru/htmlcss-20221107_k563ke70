@@ -16,13 +16,6 @@
 
 .accordion__summary {
     display: block;
-}
-
-.accordion__summary::-webkit-details-marker {
-    display: none;
-}
-
-.accordion__summary_font {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
@@ -30,12 +23,13 @@
     color: var(--black);
 }
 
+.accordion__summary::-webkit-details-marker {
+    display: none;
+}
+
 .accordion__content {
     margin-top: 16px;
     margin-bottom: 0;
-}
-
-.accordion__content_font {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
