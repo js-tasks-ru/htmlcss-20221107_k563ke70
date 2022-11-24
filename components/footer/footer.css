@@ -1,4 +1,5 @@
 .footer {
     height: 200px;
-    background: var(--white);
+    /* background: var(--white); */
+    background: var(--black);
 }

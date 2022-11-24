@@ -26,6 +26,13 @@
     --secondary: var(--purple);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html, body {
+    height: 100vh;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F03D3E;
+}
+
+
