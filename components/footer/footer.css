@@ -1,5 +1,20 @@
 .footer {
-    height: 200px;
-    /* background: var(--white); */
-    background: var(--black);
+    background: var(--white);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color: var(--black);
+    padding-top: 72px;
+    padding-bottom: 136px;
+
+}
+
+.footer__title {
+    font-size: 38px;
+    text-align: center;
+}
+
+.footer__content {
+    text-align: center;
+    font-size: 16px;
 }
