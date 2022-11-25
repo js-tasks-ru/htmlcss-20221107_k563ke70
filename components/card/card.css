@@ -6,7 +6,7 @@
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     padding: 80px 24px 30px 24px;
-    gap: 75px;  
+    gap: 25px;  
 }
 
 .card__name {
