@@ -1,6 +1,14 @@
 .container {
-    /* max-width: 1110px; */
+    max-width: 1110px;
     margin: 0 auto;
-    padding-left: 165px;
-    padding-right: 165px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container__main-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-template-rows: repeat(3, auto); */
+    gap: 15px;
 }
