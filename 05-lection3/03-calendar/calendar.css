@@ -28,8 +28,6 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    align-items: center;
-    justify-items: center;
 }
 
 .calendar__item {
@@ -39,14 +37,14 @@
     color: #334D6E;
 }
 
+
+
 .calendar__item_day {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     color: #90A0B7;
 }
-
-
 
 .calendar__item-wrapper {
     position: relative;
