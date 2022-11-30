@@ -25,10 +25,10 @@
     background: #4263EB;
     position: absolute;
     white-space: nowrap;
-    top: calc(-100% + -24px);
-    left: calc(-50% + 24px);
-    transform: translateX(-50%);
     display: none;
+    bottom: calc(100% + 16px);
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
