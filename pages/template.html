@@ -10,10 +10,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="page page_inner">
+    <div class="page ">
         <header class="header header_inner"></header>
 
-        <main class="main">
+        <main class="main page__main">
             <div class="main__menu">
                 <h4 class="main__menu-title">Components</h4>
                 <div class="main__menu-item">
@@ -39,11 +39,27 @@
                 </div>
 
             </div>
-            <div class="main__components"></div>
+            <div class="main__components">
+                <div class="gistogram">
+                    <div class="gistogram__header">
+                        <div class="gistogram__name">
+                            <div class="gistogram__title">Total orders</div>
+                            <div class="gistogram__number">50254</div>
+                        </div>
+                        <a href="#" class="gistogram__link">View all</a>
+                    </div>
+                    <div class="gistogram__graphik">
+                        <div class="gistogram__graphik-item gistogram__graphik-item_small"></div>
+                        <div class="gistogram__graphik-item gistogram__graphik-item_medium"></div>
+                        <div class="gistogram__graphik-item gistogram__graphik-item_max"></div>
+                        <div class="gistogram__graphik-item gistogram__graphik-item_large"></div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer footer_inner">
-            <h5 class="footer__title_inner">Reusable component library</h5>
+            <h5 class="footer__title footer__title_inner">Reusable component library</h5>
         </footer>
     </div>
 </body>

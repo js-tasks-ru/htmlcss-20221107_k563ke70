@@ -14,17 +14,6 @@
     padding-bottom: 56px;
     text-align: center;
     background: #F9FAFC;
-
-
-}
-
-.footer__title_inner {
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--grey-3);
 }
 
 .footer__title {
@@ -35,4 +24,11 @@
 .footer__content {
     text-align: center;
     font-size: 16px;
+}
+
+.footer__title_inner {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }

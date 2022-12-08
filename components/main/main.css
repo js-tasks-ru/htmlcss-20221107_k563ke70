@@ -3,14 +3,13 @@
     grid-template-columns: auto 1fr;
     gap: 56px;
     padding: 36px 36px 0 36px;
-    /* max-width: 1110px; */
-    /* margin: 0 auto; */
+    /* max-width: 1110px;
+    margin: 0 auto; */
     background: #F9FAFC;
 }
 
 .main__menu {
     width: 229px;
-
 }
 
 .main__components {

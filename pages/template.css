@@ -24,11 +24,11 @@
 
 
 
-.page {
+/* .page {
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-}
+} */
 
 .main {
     width: 100%;
@@ -68,6 +68,6 @@
 
 .main__components {
     height: 100%;
-    width: 100%;
+    max-width: 825px;
     background: blue;
 }
