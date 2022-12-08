@@ -47,11 +47,11 @@
     color: #90A0B7;
 }
 
-.calendar__item_num-1 {
+.calendar__item_range-outer {
     color: var(--white);
     background: var(--blue);
 }
 
-.calendar__item_num-2 {
+.calendar__item_range-inner {
     background: rgba(160, 177, 245, 0.2);
 }
