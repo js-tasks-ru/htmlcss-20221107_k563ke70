@@ -12,8 +12,9 @@
 .footer_inner {
     padding-top: 92px;
     padding-bottom: 56px;
-    text-align: center;
+    /* text-align: center; */
     background: #F9FAFC;
+    
 }
 
 .footer__title {
