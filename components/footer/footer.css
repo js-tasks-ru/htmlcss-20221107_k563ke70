@@ -4,30 +4,35 @@
     font-style: normal;
     font-weight: 500;
     color: var(--black);
-    padding-top: 72px;
-    padding-bottom: 136px;
+    text-align: center;
+    /* padding-top: 72px; */
+    /* padding-bottom: 136px; */
 
 }
 
 .footer_inner {
-    padding-top: 92px;
-    padding-bottom: 56px;
-    /* text-align: center; */
     background: #F9FAFC;
-    
 }
 
 .footer__title {
     font-size: 38px;
     text-align: center;
+    padding-top: 72px;
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 .footer__content {
     text-align: center;
     font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 136px;
 }
 
-.footer__title_inner {
+.footer__title-inner {
+    padding-top: 92px;
+    margin-top: 0;
+    margin-bottom: 56px;
     font-size: 12px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
